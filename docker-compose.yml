@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+
+    influxdb:
+        image: influxdb
+        ports:
+          - 8086:8086
+        volumes:
+          - influxdb-vol:/var/lib/influxdb
+
+    telegraf:
+        image: telegraf
+        volumes:
+           - $PWD/telegraf.conf:/etc/telegraf/telegraf.conf
+
+    grafana:
+        image: grafana/grafana
+        ports:
+          - 3000:3000
+
+volumes:
+  influxdb-vol:
+    name: net-mon
