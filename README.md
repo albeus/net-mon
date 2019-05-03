@@ -1,4 +1,4 @@
-A self contained netork monitoring system
+A self contained network monitoring system
 ==========================================
 
 This is a simple network monitoring system using the stack
@@ -35,4 +35,4 @@ Credits
 ======
 
 * [Get system metrics for 5 min with Docker, Telegraf, Influxdb and Grafana](https://towardsdatascience.com/get-system-metrics-for-5-min-with-docker-telegraf-influxdb-and-grafana-97cfd957f0ac)
-* [Monitoring your home network with InfluxDB on Raspberry Pi with Docker](Pete Shima: https://medium.com/@petey5000/monitoring-your-home-network-with-influxdb-on-raspberry-pi-with-docker-78a23559ffea)
+* [Monitoring your home network with InfluxDB on Raspberry Pi with Docker](https://medium.com/@petey5000/monitoring-your-home-network-with-influxdb-on-raspberry-pi-with-docker-78a23559ffea)
